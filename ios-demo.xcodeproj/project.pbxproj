@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5FB46025B45ADF00A93008 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FB45F25B45ADF00A93008 /* Features */; };
+		0D5FB47025B470A500A93008 /* TC01_LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FB46F25B470A500A93008 /* TC01_LandingPage.swift */; };
 		0DB0602A25ABA57200743136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0602925ABA57200743136 /* AppDelegate.swift */; };
 		0DB0602C25ABA57200743136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0602B25ABA57200743136 /* SceneDelegate.swift */; };
 		0DB0602E25ABA57200743136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0602D25ABA57200743136 /* ViewController.swift */; };
@@ -14,10 +16,8 @@
 		0DB0603325ABA57300743136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB0603225ABA57300743136 /* Assets.xcassets */; };
 		0DB0603625ABA57300743136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB0603425ABA57300743136 /* LaunchScreen.storyboard */; };
 		0DB0604125ABA57300743136 /* ios_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0604025ABA57300743136 /* ios_demoTests.swift */; };
-		0DB0604C25ABA57300743136 /* ios_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0604B25ABA57300743136 /* ios_demoUITests.swift */; };
 		0DDD802025AE494000A0CF11 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDD801F25AE494000A0CF11 /* CucumberishLoader.m */; };
 		0DDD802825AE49B000A0CF11 /* CucumberishInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDD802725AE49B000A0CF11 /* CucumberishInitializer.swift */; };
-		0DDD803525AE4A6C00A0CF11 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 0DDD803425AE4A6C00A0CF11 /* Features */; };
 		3EF3CB5259E4EF40869029D5 /* Pods_ios_demo_ios_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF097DE6092C6019471D3613 /* Pods_ios_demo_ios_demoUITests.framework */; };
 		961E6944049CCFD1FE242BDA /* Pods_ios_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C18ED54CCB410022B755CF4 /* Pods_ios_demoTests.framework */; };
 		E4F551CE9766F0F89F1A7AAD /* Pods_ios_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57791F39853273115B902643 /* Pods_ios_demo.framework */; };
@@ -41,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D5FB45F25B45ADF00A93008 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
+		0D5FB46F25B470A500A93008 /* TC01_LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TC01_LandingPage.swift; sourceTree = "<group>"; };
 		0DB0602625ABA57200743136 /* ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB0602925ABA57200743136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DB0602B25ABA57200743136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,12 +55,10 @@
 		0DB0604025ABA57300743136 /* ios_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_demoTests.swift; sourceTree = "<group>"; };
 		0DB0604225ABA57300743136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DB0604725ABA57300743136 /* ios-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DB0604B25ABA57300743136 /* ios_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_demoUITests.swift; sourceTree = "<group>"; };
 		0DB0604D25ABA57300743136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DDD801E25AE493F00A0CF11 /* ios-demoUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-demoUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		0DDD801F25AE494000A0CF11 /* CucumberishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishLoader.m; sourceTree = "<group>"; };
 		0DDD802725AE49B000A0CF11 /* CucumberishInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishInitializer.swift; sourceTree = "<group>"; };
-		0DDD803425AE4A6C00A0CF11 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Features; path = ../../../../../Desktop/Features; sourceTree = "<group>"; };
 		1761494C6F218D9C59B7CE9A /* Pods-ios-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-demo.debug.xcconfig"; path = "Target Support Files/Pods-ios-demo/Pods-ios-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		3C18ED54CCB410022B755CF4 /* Pods_ios_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57791F39853273115B902643 /* Pods_ios_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,10 +146,9 @@
 		0DB0604A25ABA57300743136 /* ios-demoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0DDD803425AE4A6C00A0CF11 /* Features */,
+				0D5FB45F25B45ADF00A93008 /* Features */,
 				0DE4423425AE4E22009F479E /* Step Definitions */,
 				0DDD801D25AE490000A0CF11 /* Support */,
-				0DB0604B25ABA57300743136 /* ios_demoUITests.swift */,
 				0DB0604D25ABA57300743136 /* Info.plist */,
 			);
 			path = "ios-demoUITests";
@@ -168,6 +167,7 @@
 		0DE4423425AE4E22009F479E /* Step Definitions */ = {
 			isa = PBXGroup;
 			children = (
+				0D5FB46F25B470A500A93008 /* TC01_LandingPage.swift */,
 			);
 			path = "Step Definitions";
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDD803525AE4A6C00A0CF11 /* Features in Resources */,
+				0D5FB46025B45ADF00A93008 /* Features in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DB0604C25ABA57300743136 /* ios_demoUITests.swift in Sources */,
+				0D5FB47025B470A500A93008 /* TC01_LandingPage.swift in Sources */,
 				0DDD802825AE49B000A0CF11 /* CucumberishInitializer.swift in Sources */,
 				0DDD802025AE494000A0CF11 /* CucumberishLoader.m in Sources */,
 			);
@@ -599,6 +599,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 8L68N8R7SQ;
 				INFOPLIST_FILE = "ios-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -619,6 +620,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 8L68N8R7SQ;
 				INFOPLIST_FILE = "ios-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -685,6 +687,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8L68N8R7SQ;
 				INFOPLIST_FILE = "ios-demoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -709,6 +712,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8L68N8R7SQ;
 				INFOPLIST_FILE = "ios-demoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

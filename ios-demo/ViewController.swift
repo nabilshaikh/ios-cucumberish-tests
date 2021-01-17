@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         button.setTitle("Let's start!", for: .normal)
         button.backgroundColor = .systemGray4
         button.setTitleColor(.black, for: .normal)
+        button.accessibilityIdentifier = "landingPagebutton"
         return button
     }()
 

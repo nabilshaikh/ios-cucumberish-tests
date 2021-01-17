@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ios-demoUITests-Swift.h"
+#import "ios_demoUITests-Swift.h"
 
 void CucumberishInit(void);
 
