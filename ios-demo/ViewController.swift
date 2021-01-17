@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         vc4.title = "Help"
         vc5.title = "Settings"
         
-        tabBarVC.setViewControllers([vc1, vc2, vc3, vc4, vc5], animated: false)
+        tabBarVC.setViewControllers([vc1, vc2, vc3, vc4, vc5], animated: true)
         
         guard let items = tabBarVC.tabBar.items else { return }
         

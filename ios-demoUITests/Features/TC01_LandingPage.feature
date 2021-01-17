@@ -11,5 +11,3 @@ Scenario: Verify button on landing page
     And User sees the "Click on below button to proceed" followed by a button
     When User tap on Let's start! button
     Then User should navigate to Home page
-        
-        
