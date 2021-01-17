@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0D5FB46025B45ADF00A93008 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FB45F25B45ADF00A93008 /* Features */; };
 		0D5FB47025B470A500A93008 /* TC01_LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FB46F25B470A500A93008 /* TC01_LandingPage.swift */; };
+		0D5FB58F25B47ED700A93008 /* TC02_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FB58E25B47ED700A93008 /* TC02_TabBar.swift */; };
+		0D5FB59425B4848C00A93008 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FB59325B4848C00A93008 /* CommonMethods.swift */; };
 		0DB0602A25ABA57200743136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0602925ABA57200743136 /* AppDelegate.swift */; };
 		0DB0602C25ABA57200743136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0602B25ABA57200743136 /* SceneDelegate.swift */; };
 		0DB0602E25ABA57200743136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0602D25ABA57200743136 /* ViewController.swift */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		0D5FB45F25B45ADF00A93008 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
 		0D5FB46F25B470A500A93008 /* TC01_LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TC01_LandingPage.swift; sourceTree = "<group>"; };
+		0D5FB58E25B47ED700A93008 /* TC02_TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TC02_TabBar.swift; sourceTree = "<group>"; };
+		0D5FB59325B4848C00A93008 /* CommonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
 		0DB0602625ABA57200743136 /* ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB0602925ABA57200743136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DB0602B25ABA57200743136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 				0DDD801F25AE494000A0CF11 /* CucumberishLoader.m */,
 				0DDD801E25AE493F00A0CF11 /* ios-demoUITests-Bridging-Header.h */,
 				0DDD802725AE49B000A0CF11 /* CucumberishInitializer.swift */,
+				0D5FB59325B4848C00A93008 /* CommonMethods.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				0D5FB46F25B470A500A93008 /* TC01_LandingPage.swift */,
+				0D5FB58E25B47ED700A93008 /* TC02_TabBar.swift */,
 			);
 			path = "Step Definitions";
 			sourceTree = "<group>";
@@ -435,9 +441,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5FB58F25B47ED700A93008 /* TC02_TabBar.swift in Sources */,
 				0D5FB47025B470A500A93008 /* TC01_LandingPage.swift in Sources */,
 				0DDD802825AE49B000A0CF11 /* CucumberishInitializer.swift in Sources */,
 				0DDD802025AE494000A0CF11 /* CucumberishLoader.m in Sources */,
+				0D5FB59425B4848C00A93008 /* CommonMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
